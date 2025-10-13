@@ -14,6 +14,7 @@ import {
   FlagIcon,
   ChatBubbleLeftIcon,
   PaperClipIcon,
+  ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
 
 // Redux actions

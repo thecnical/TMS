@@ -21,6 +21,7 @@ const TaskDetail = () => {
   const dispatch = useDispatch();
   
   const { currentTask, isLoading } = useSelector((state) => state.tasks);
+  const { user } = useSelector((state) => state.auth);
   
   const [activeTab, setActiveTab] = useState('details');
   const [comment, setComment] = useState('');

@@ -27,7 +27,7 @@ import { useDebounce } from '../../hooks/useDebounce';
 
 const Projects = () => {
   const dispatch = useDispatch();
-  const { projects, isLoading } = useSelector((state) => state.projects);
+  const { projects, isLoading, pagination } = useSelector((state) => state.projects);
 
   const [searchQuery, setSearchQuery] = useState('');
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
