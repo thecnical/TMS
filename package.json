@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "task-management-system",
   "version": "1.0.0",
@@ -26,3 +27,33 @@
     "socket.io-client": "^4.7.5"
   }
 }
+=======
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "A collaborative task management system with real-time updates",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "task-management",
+    "react",
+    "redux",
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "TMS Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}
+>>>>>>> 973742af3377736e3e652474c1aa6c4cc858ed7e
