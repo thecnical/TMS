@@ -1,0 +1,38 @@
+# <type>(<scope>): <subject>
+#
+# <body>
+#
+# <footer>
+
+# Type should be one of the following:
+# * feat: A new feature
+# * fix: A bug fix
+# * docs: Documentation only changes
+# * style: Changes that do not affect the meaning of the code
+# * refactor: A code change that neither fixes a bug nor adds a feature
+# * perf: A code change that improves performance
+# * test: Adding missing tests or correcting existing tests
+# * chore: Changes to the build process or auxiliary tools
+#
+# Scope should be one of the following:
+# * frontend: Changes to frontend code
+# * backend: Changes to backend code
+# * config: Changes to configuration files
+# * docs: Changes to documentation
+# * deps: Changes to dependencies
+#
+# Subject should be a short description of the change
+# Body should provide more detailed information about the change
+# Footer should contain any breaking changes or issue references
+#
+# Example:
+# feat(frontend): add guest login functionality
+#
+# Implemented guest login feature that allows users to bypass authentication
+# and access the application with limited permissions. This includes:
+# - New guest login button in Login component
+# - Guest user creation in authService
+# - Guest login Redux actions
+# - Limited permissions for guest users
+#
+# Closes #123
